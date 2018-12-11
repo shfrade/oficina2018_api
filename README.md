@@ -19,7 +19,13 @@ myvenv\scripts\activate
 pip install -r requirements.txt
 py manage.py makemigrations produtos
 py manage.py migrate
-# É opcional criar um usuário admin. 
+
+É opcional criar um usuário admin. 
 py manage.py createsuperuser
 
+# Rodando o servidor
 py manage.py runserver
+
+
+#testando a API, no navegador acessar a url:
+http://127.0.0.1:8000/api/
