@@ -27,5 +27,5 @@ py manage.py createsuperuser
 py manage.py runserver 
 
 
-#testando a API, no navegador acessar a url:
+# testando a API, no navegador acessar a url:
 http://127.0.0.1:8000/api/
