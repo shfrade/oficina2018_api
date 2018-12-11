@@ -24,7 +24,7 @@ py manage.py migrate
 py manage.py createsuperuser
 
 # Rodando o servidor
-py manage.py runserver
+py manage.py runserver 
 
 
 #testando a API, no navegador acessar a url:
