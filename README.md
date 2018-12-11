@@ -29,3 +29,14 @@ py manage.py runserver
 
 # testando a API, no navegador acessar a url:
 http://127.0.0.1:8000/api/
+
+# Agora passando para a API
+Instalar o NPM ( https://nodejs.org/en/download/ )
+e executar o comando no console (reabrir o mesmo)
+node -v
+Entrar na pasta do APP (clonado lá em cima)
+e digitar no console:
+npm install 
+npm install -g @angular/cli
+ng serve
+acessar na url: http://localhost:4200/ (garantindo que AMBOS SERVIDORES ESTÃO RODANDO AO MESMO TEMPO API E APP)
